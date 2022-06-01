@@ -1,10 +1,10 @@
-HOW TO RUN
+**HOW TO RUN**
   1. Clone git files
   2. Install all the dependencies using 'npm install <dependency-name>'
   3. Generate github token and assign it to the variable TOKEN in all the files
   4. Run the files using 'node <filename.js>'
 
-PROJECT DESCRIPTION - STEPS
+**PROJECT DESCRIPTION - STEPS**
   
 **PART A) To generate a CSV with the name, repo, version, version_satisfied details**
   1. Fetch input from the user in the form "myawesometool -i <filename.csv> <dependency-name>@<version>" or "myawesometool -update -i <filename.csv> <dependency-name>@<version>"
