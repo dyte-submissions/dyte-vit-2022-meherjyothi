@@ -64,7 +64,7 @@ for(let i=0;i<data.length;i++)
         jsonnn = JSON.stringify(jsonnn)
 
         const MyOctokit = Octokit.plugin(createPullRequest);  
-        const TOKEN = "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";
+        const TOKEN = "ghp_skRW**********************";             //generate a token, and enter here
         const octokit = new MyOctokit({
             auth: TOKEN,
             });
