@@ -1,3 +1,17 @@
+**TITLE**
+SDK Tooling Challenge</br>
+
+**PROBLEM STATEMENT**
+_Task 1_ </br>
+Given a list of Github repositories, assuming all of them are node js projects with a package.json and package-lock.json in the root, and the name and version of a dependency, you want to give the current version of that dependency and tell if the version is greater than or equal to the version specified or not.</br>
+
+_Task 2_ <br>
+Secondly, for all the repositories that have the version lower than the one specified, if passed as additional param, let’s say `-update`, it should create a PR updating the version. </br>
+
+----------------------------------------------
+
+
+
 ****HOW TO RUN****
   1. Clone git files
   2. Install all the dependencies using 'npm install <dependency-name>'
@@ -36,7 +50,10 @@
      
   -------------------------
       
-**PART B) To generate a CSV with the name, repo, version, update_pr after generating a pr updating the package.json file**
+**PART B) To generate a CSV with the name, repo, version, update_pr after generating a pr updating the package.json file** </br>
+Here, 2 files have been created, namely, task2a.js and task2b.js. </br>
+
+
     
   
  
