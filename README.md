@@ -82,8 +82,21 @@ Here, 2 files have been created, namely, _task2a.js_ and _task2b.js_. </br>
     v.   If version is not satisfied, create a pr to update the package.json in the repository, with the contents of the output0.json file, output1.json file, so on.
   
   
+  ---------------------------
   
-
+  **NOTE** </br>
+Due to the presence of many asynchronized functions in my code, inorder to make sure the functionality is not affected, by say delayed promises, I had to code some redundant code. 
+  
+  
+ -----------------------------
+  
+**  API REFERENCES** </br>
+  The references to the APIs I have used for this assignment are mentioned below- </br>
+  https://github.com/octokit/octokit.js/
+  https://nodejs.org/api/fs.html
+  https://csv.js.org/parse/
+  https://www.npmjs.com/package/csv-writer
+  https://www.npmjs.com/package/json2csv
 
 
     
