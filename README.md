@@ -14,7 +14,7 @@ Secondly, for all the repositories that have the version lower than the one spec
 
 ****HOW TO RUN****
   1. Clone git files
-  2. Install all the dependencies using 'npm install <dependency-name>'
+  2. Install all the dependencies using 'npm install < dependency-name >'
   3. Generate github token and assign it to the variable TOKEN in all the files
   4. Run the files using 'node <filename.js>'
   5. To perform task1, only run task1.js
