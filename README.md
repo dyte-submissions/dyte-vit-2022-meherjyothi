@@ -17,9 +17,9 @@
   Inside a for loop iterating over each object in the variable data </br>
     i.  Filter non-null JSON onjects</br>
     ii. Get the repo URL's info using octokit module, by defining an async function getUrlInfo(). When calling this function, within its then() method, use the rest of the methods - </br>
-      a. Extract the version from package.json file of the repo</br>
-      b. Compare this extracted version with the input version provided by the user, and accordingly, store the boolean value inside a result variable </br>
-      c. Using csv-writer module, write into the output.csv file - name, repo, version, version_satisfied</br>
+      &nbsp;&nbsp; a. Extract the version from package.json file of the repo</br>
+      &nbsp;&nbsp; b. Compare this extracted version with the input version provided by the user, and accordingly, store the boolean value inside a result variable </br>
+      &nbsp;&nbsp; c. Using csv-writer module, write into the output.csv file - name, repo, version, version_satisfied</br>
      
   -------------------------
       
