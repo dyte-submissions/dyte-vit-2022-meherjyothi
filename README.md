@@ -7,14 +7,14 @@
   6. To perform task2, run task2a.js and task2b.js consequently, where task2b.js will give the final output in the file final_output.csv
   
   The following are the dependencies to be installed - 
-  fs
-  csv-parser
-  csv-parse
-  @octokit/core
-  octokit-plugin-create-pull-request
-  os
-  events
-  json2csv
+  fs,
+  csv-parser,
+  csv-parse,
+  @octokit/core,
+  octokit-plugin-create-pull-request,
+  os,
+  events,
+  json2csv,
   csv-writer
   
   --------------------------
