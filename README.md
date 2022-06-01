@@ -3,6 +3,8 @@
   2. Install all the dependencies using 'npm install <dependency-name>'
   3. Generate github token and assign it to the variable TOKEN in all the files
   4. Run the files using 'node <filename.js>'
+  5. To perform task1, only run task1.js
+  6. To perform task2, run task2a.js and task2b.js consequently, where task2b.js will give the final output in the file final_output.csv
   
   --------------------------
 
