@@ -7,7 +7,7 @@
   --------------------------
 
 **PROJECT DESCRIPTION**
-  **TASK 1 -  To generate a CSV with the name, repo, version, version_satisfied details**
+  _TASK 1 -  To generate a CSV with the name, repo, version, version_satisfied details_
   1. Fetch input from the user in the form "myawesometool -i <filename.csv> <dependency-name>@<version>" or "myawesometool -update -i <filename.csv> <dependency-name>@<version>"
       eg : "myawesometool -i input.csv axios@0.23.0" or "myawesometool -update -i input.csv axios@0.23.0"
   2. Extract the input dependency and version from user's command, throw an exception if the input format is invalid
